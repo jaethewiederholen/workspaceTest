@@ -1,0 +1,13 @@
+{
+  "name": "workspace-test",
+  "private" : true,
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/jaethewiederholen/workspaceTest.git",
+  "author": "JAE YEON KIM <65452447+jaethewiederholen@users.noreply.github.com>",
+  "license": "MIT",
+  "workspaces": ["front", "contracts"],
+  "devDependencies": {
+    "ts-node": "^10.5.0"
+  }
+}
